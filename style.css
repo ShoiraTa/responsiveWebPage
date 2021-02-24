@@ -40,6 +40,8 @@ img {
   width: 100%;
 }
 
+/* navbar */
+
 .navbar {
   background-color: var(--blue);
   color: var(--white);
@@ -48,6 +50,18 @@ img {
 .navbar .flex {
   justify-content: space-between;
 }
+
+.navbar a {
+  color: var(--white);
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid var(--white);
+}
+
+/* utilities */
 
 .container {
   max-width: 1100px;
@@ -63,12 +77,55 @@ img {
   height: 100%;
 }
 
-.navbar a {
-  color: var(--white);
-  padding: 10px;
-  margin: 0 5px;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+  height: 100%;
 }
 
-.navbar a:hover {
-  border-bottom: 2px solid var(--white);
+.card {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+  color: var(--primary);
+}
+
+/* showcase */
+
+.showcase {
+  height: 400px;
+  background-color: var(--blue);
+  color: var(--white);
+  position: relative;
+}
+
+.showcase h1 {
+  font-size: 2rem;
+}
+
+.showcase p {
+  margin: 20px 0;
+}
+
+.showcase .grid {
+  grid-template-columns: 55% 45%;
+  gap: 30px;
+  overflow: visible;
+}
+
+.showcase-form {
+  position: relative;
+  top: 60px;
+  height: 350px;
+  width: 400px;
+  padding: 40px;
+  z-index: 100;
+}
+.showcase-form .form-control {
+  margin: 30px 0;
 }
