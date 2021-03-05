@@ -45,7 +45,7 @@ img {
 
 /* navbar */
 
-.logo{
+.logo {
   font-size: 2rem;
 }
 
@@ -66,8 +66,6 @@ img {
   font-size: 18px;
   font-weight: 600;
 }
-
-
 
 .navbar a:hover {
   background-color: #fff;
