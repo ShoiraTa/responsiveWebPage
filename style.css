@@ -45,6 +45,10 @@ img {
 
 /* navbar */
 
+.logo{
+  font-size: 2rem;
+}
+
 .navbar {
   background-color: var(--blue);
   color: var(--white);
@@ -59,7 +63,11 @@ img {
   color: var(--white);
   padding: 10px;
   margin: 0 5px;
+  font-size: 18px;
+  font-weight: 600;
 }
+
+
 
 .navbar a:hover {
   background-color: #fff;

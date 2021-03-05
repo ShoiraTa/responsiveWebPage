@@ -1,22 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Loruki 
 
-> One paragraph statement about the project.
+> Building a web site making it responsive for different device sizes
 
-![screenshot](./app_screenshot.png)
+![screenshot](./responsiveWebPage/img/screencapture-127-0-0-1-5500-responsiveWebPage-index-html-2021-03-05-18_36_44.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- CSS
+- HTML
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://shoirata.github.io/responsiveWebPage/.)
 
 
 ## Getting Started
