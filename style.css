@@ -1,6 +1,8 @@
 :root {
   --primary: #333;
   --blue: #047aed;
+  --secondary-blue: #1c3fa8;
+  --dark-color: #002240;
   --white: #fff;
   --border: #b4becb;
 }
@@ -43,6 +45,10 @@ img {
 
 /* navbar */
 
+.logo {
+  font-size: 2rem;
+}
+
 .navbar {
   background-color: var(--blue);
   color: var(--white);
@@ -57,10 +63,16 @@ img {
   color: var(--white);
   padding: 10px;
   margin: 0 5px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .navbar a:hover {
-  border-bottom: 2px solid var(--white);
+  background-color: #fff;
+  color: var(--blue);
+  border-radius: 5px;
+  transition: all 1s ease;
+  font-size: 18px;
 }
 
 /* showcase */
@@ -130,4 +142,35 @@ img {
 
 .showcase-form input {
   outline: none;
+}
+
+.stats-heading {
+  margin: auto;
+}
+
+.stats .grid h3 {
+  font-size: 35px;
+}
+
+.stats .grid p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* CLI */
+
+.cli .grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .grid > *:first-child {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+/* Cloud */
+
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
 }

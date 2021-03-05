@@ -37,6 +37,20 @@
   border-radius: 5px;
 }
 
+/* Backgrounds and color btns */
+
+.bg-primary,
+.btn-primary {
+  background: var(--blue);
+  color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background: var(--blue);
+  color: #fff;
+}
+
 .text-center {
   text-align: center;
 }
@@ -95,10 +109,6 @@
 
 .m-4 {
   margin: 2.5rem;
-}
-
-.m-5 {
-  margin: 3rem;
 }
 
 /* Padding */
