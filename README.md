@@ -4,7 +4,7 @@
 
 > Building a web site making it responsive for different device sizes
 
-![screenshot](./responsiveWebPage/img/screencapture-127-0-0-1-5500-responsiveWebPage-index-html-2021-03-05-18_36_44.png)
+![screenshot](./img/screencapture-127-0-0-1-5500-responsiveWebPage-index-html-2021-03-05-18_36_44.png)
 
 Additional description about the project and its features.
 
